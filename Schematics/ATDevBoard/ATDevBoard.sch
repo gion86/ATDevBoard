@@ -12209,9 +12209,7 @@ Created by Robert Siegler</description>
 <wire x1="2.75" y1="-4" x2="2.75" y2="4" width="0.1" layer="51"/>
 <wire x1="-10.75" y1="3.2" x2="-1.75" y2="3.2" width="0.1" layer="21" style="shortdash"/>
 <wire x1="-10.75" y1="-3.2" x2="-1.75" y2="-3.2" width="0.1" layer="21" style="shortdash"/>
-<wire x1="-1.75" y1="-3.2" x2="-1.75" y2="-1" width="0.1" layer="21" style="shortdash"/>
-<wire x1="-1.75" y1="-1" x2="-1.75" y2="1" width="0.1" layer="21" style="shortdash"/>
-<wire x1="-1.75" y1="1" x2="-1.75" y2="3.2" width="0.1" layer="21" style="shortdash"/>
+<wire x1="-1.75" y1="-3.2" x2="-1.75" y2="3.2" width="0.1" layer="21" style="shortdash"/>
 <wire x1="-8.75" y1="-1" x2="-1.75" y2="-1" width="0.1" layer="51" style="shortdash"/>
 <wire x1="-8.75" y1="1" x2="-1.75" y2="1" width="0.1" layer="51" style="shortdash"/>
 <wire x1="-8.75" y1="-1" x2="-8.75" y2="1" width="0.1" layer="21" curve="-180"/>
@@ -12251,6 +12249,18 @@ Created by Robert Siegler</description>
 <rectangle x1="2.4892" y1="-0.1524" x2="2.5146" y2="1.7526" layer="46"/>
 <rectangle x1="2.4892" y1="-1.7526" x2="2.5146" y2="-0.1524" layer="46"/>
 <rectangle x1="-1.4986" y1="-5.207" x2="1.4986" y2="-4.3942" layer="46"/>
+<wire x1="0" y1="-1.905" x2="0" y2="0" width="0.127" layer="46"/>
+<wire x1="0" y1="0" x2="-1.778" y2="0" width="0.127" layer="46"/>
+<wire x1="-1.778" y1="0" x2="-1.27" y2="0.254" width="0.127" layer="46"/>
+<wire x1="-1.778" y1="0" x2="-1.27" y2="-0.254" width="0.127" layer="46"/>
+<wire x1="0" y1="0" x2="1.905" y2="0" width="0.127" layer="46"/>
+<wire x1="1.905" y1="0" x2="1.397" y2="0.254" width="0.127" layer="46"/>
+<wire x1="1.905" y1="0" x2="1.397" y2="-0.254" width="0.127" layer="46"/>
+<wire x1="0" y1="-2.667" x2="0" y2="-3.683" width="0.127" layer="46"/>
+<wire x1="0" y1="-3.683" x2="-0.254" y2="-3.175" width="0.127" layer="46"/>
+<wire x1="0" y1="-3.683" x2="0.254" y2="-3.175" width="0.127" layer="46"/>
+<text x="-5.715" y="-2.54" size="0.6096" layer="46" ratio="10">3 Slot Drills with copper</text>
+<text x="13.97" y="5.715" size="0.254" layer="33" ratio="10" rot="R90">&gt;name</text>
 </package>
 <package name="SPC4078">
 <description>&lt;b&gt;DC POWER JACK 2.5mm&lt;/b&gt; Right Angle, Through Hole, Rated 5A at 16VDC, PC Terminals&lt;p&gt;
@@ -12389,6 +12399,15 @@ Micro-USB AB Receptacle, Bottom Mount, SMT, Lead-Free&lt;/a&gt; (&lt;a href="htt
 <rectangle x1="2.575559375" y1="1.875790625" x2="3.42391875" y2="2.574290625" layer="46"/>
 <rectangle x1="2.575559375" y1="-2.574290625" x2="3.42391875" y2="-1.87451875" layer="46"/>
 <rectangle x1="-0.64896875" y1="-4.474209375" x2="0.64896875" y2="-3.876040625" layer="46"/>
+<wire x1="1.143" y1="4.191" x2="1.651" y2="4.445" width="0.127" layer="46"/>
+<wire x1="1.143" y1="4.191" x2="1.651" y2="3.937" width="0.127" layer="46"/>
+<wire x1="1.143" y1="4.191" x2="2.921" y2="4.191" width="0.127" layer="46"/>
+<wire x1="2.921" y1="4.191" x2="2.921" y2="2.921" width="0.127" layer="46"/>
+<wire x1="2.921" y1="2.921" x2="2.667" y2="3.302" width="0.127" layer="46"/>
+<wire x1="2.921" y1="2.921" x2="3.175" y2="3.302" width="0.127" layer="46"/>
+<text x="-2.921" y="4.826" size="0.508" layer="46" ratio="10">4 Slot Drills
+with copper</text>
+<text x="13.97" y="6.985" size="0.254" layer="33" ratio="10" rot="R90">&gt;name</text>
 </package>
 </packages>
 <symbols>
