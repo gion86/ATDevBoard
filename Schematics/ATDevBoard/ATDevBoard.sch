@@ -12601,12 +12601,12 @@ Micro-USB AB Receptacle, Bottom Mount, SMT, Lead-Free&lt;/a&gt; (&lt;a href="htt
 <part name="C4" library="SmartPrj" deviceset="C-EU" device="050-024X044" value="100n"/>
 <part name="GND13" library="supply2" deviceset="GND" device=""/>
 <part name="R7" library="rcl" deviceset="R-US_" device="0207/10" value="1M"/>
-<part name="C6" library="SmartPrj" deviceset="C-EU" device="050-024X044" value="100n"/>
+<part name="C5" library="SmartPrj" deviceset="C-EU" device="050-024X044" value="100n"/>
 <part name="POWER" library="pinhead" deviceset="PINHD-1X5" device="" value="6x1F-H8.5"/>
 <part name="P+4" library="supply1" deviceset="VCC" device=""/>
 <part name="SUPPLY52" library="supply2" deviceset="GND" device=""/>
+<part name="C7" library="rcl" deviceset="C-EU" device="050-024X044" value="100n"/>
 <part name="C8" library="rcl" deviceset="C-EU" device="050-024X044" value="100n"/>
-<part name="C9" library="rcl" deviceset="C-EU" device="050-024X044" value="100n"/>
 <part name="SUPPLY54" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY55" library="supply1" deviceset="VCC" device=""/>
 <part name="SUPPLY1" library="supply2" deviceset="GND" device=""/>
@@ -12635,7 +12635,7 @@ Micro-USB AB Receptacle, Bottom Mount, SMT, Lead-Free&lt;/a&gt; (&lt;a href="htt
 <part name="FRAME1" library="frames" deviceset="DOCFIELD" device=""/>
 <part name="OSC1" library="special" deviceset="XTAL/S" device=""/>
 <part name="C3" library="SmartPrj" deviceset="C-EU" device="050-024X044" value="22p"/>
-<part name="C7" library="SmartPrj" deviceset="C-EU" device="050-024X044" value="22p"/>
+<part name="C6" library="SmartPrj" deviceset="C-EU" device="050-024X044" value="22p"/>
 <part name="GND3" library="supply2" deviceset="GND" device=""/>
 <part name="R2" library="rcl" deviceset="R-US_" device="0309/12" value="10K"/>
 <part name="R3" library="rcl" deviceset="R-US_" device="0207/10" value="1K"/>
@@ -12734,7 +12734,7 @@ for ATMega328p, ATTinyX4, ATTinyX5.</text>
 <attribute name="NAME" x="55.88" y="121.0564" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="55.245" y="118.872" size="1.778" layer="96" rot="MR180"/>
 </instance>
-<instance part="C6" gate="G$1" x="53.34" y="91.44" smashed="yes" rot="R180">
+<instance part="C5" gate="G$1" x="53.34" y="91.44" smashed="yes" rot="R180">
 <attribute name="NAME" x="47.117" y="93.345" size="1.778" layer="95"/>
 <attribute name="VALUE" x="45.466" y="90.805" size="1.778" layer="96"/>
 </instance>
@@ -12743,11 +12743,11 @@ for ATMega328p, ATTinyX4, ATTinyX5.</text>
 <attribute name="VALUE" x="42.545" y="147.32" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="SUPPLY52" gate="GND" x="231.14" y="142.24"/>
-<instance part="C8" gate="G$1" x="231.14" y="152.4" smashed="yes" rot="R180">
+<instance part="C7" gate="G$1" x="231.14" y="152.4" smashed="yes" rot="R180">
 <attribute name="NAME" x="229.616" y="157.099" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="229.616" y="152.019" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="C9" gate="G$1" x="274.32" y="152.4" rot="R180"/>
+<instance part="C8" gate="G$1" x="274.32" y="152.4" rot="R180"/>
 <instance part="SUPPLY54" gate="GND" x="274.32" y="144.78"/>
 <instance part="SUPPLY55" gate="VCC" x="274.32" y="165.1" smashed="yes">
 <attribute name="VALUE" x="274.32" y="167.64" size="1.778" layer="96" rot="R180"/>
@@ -12805,7 +12805,7 @@ for ATMega328p, ATTinyX4, ATTinyX5.</text>
 <attribute name="NAME" x="37.465" y="128.143" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="34.925" y="129.794" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="C7" gate="G$1" x="38.1" y="111.76" smashed="yes" rot="R270">
+<instance part="C6" gate="G$1" x="38.1" y="111.76" smashed="yes" rot="R270">
 <attribute name="NAME" x="36.195" y="105.537" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="38.735" y="103.886" size="1.778" layer="96" rot="R90"/>
 </instance>
@@ -12850,14 +12850,14 @@ for ATMega328p, ATTinyX4, ATTinyX5.</text>
 <pinref part="GND13" gate="GND" pin="GND"/>
 </segment>
 <segment>
-<pinref part="C9" gate="G$1" pin="1"/>
+<pinref part="C8" gate="G$1" pin="1"/>
 <pinref part="SUPPLY54" gate="GND" pin="GND"/>
 <wire x1="274.32" y1="147.32" x2="274.32" y2="149.86" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY52" gate="GND" pin="GND"/>
 <wire x1="231.14" y1="147.32" x2="231.14" y2="144.78" width="0.1524" layer="91"/>
-<pinref part="C8" gate="G$1" pin="1"/>
+<pinref part="C7" gate="G$1" pin="1"/>
 <wire x1="231.14" y1="149.86" x2="231.14" y2="147.32" width="0.1524" layer="91"/>
 <junction x="231.14" y="147.32"/>
 <wire x1="210.82" y1="147.32" x2="231.14" y2="147.32" width="0.1524" layer="91"/>
@@ -12899,7 +12899,7 @@ for ATMega328p, ATTinyX4, ATTinyX5.</text>
 <pinref part="SCK" gate="G$1" pin="C"/>
 </segment>
 <segment>
-<pinref part="C6" gate="G$1" pin="1"/>
+<pinref part="C5" gate="G$1" pin="1"/>
 <wire x1="53.34" y1="88.9" x2="53.34" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="GND2" gate="GND" pin="GND"/>
 <wire x1="53.34" y1="86.36" x2="58.42" y2="86.36" width="0.1524" layer="91"/>
@@ -12918,7 +12918,7 @@ for ATMega328p, ATTinyX4, ATTinyX5.</text>
 <pinref part="C3" gate="G$1" pin="1"/>
 <wire x1="33.02" y1="121.92" x2="30.48" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="121.92" x2="30.48" y2="111.76" width="0.1524" layer="91"/>
-<pinref part="C7" gate="G$1" pin="2"/>
+<pinref part="C6" gate="G$1" pin="2"/>
 <wire x1="30.48" y1="111.76" x2="33.02" y2="111.76" width="0.1524" layer="91"/>
 <pinref part="GND3" gate="GND" pin="GND"/>
 <junction x="30.48" y="111.76"/>
@@ -13004,7 +13004,7 @@ for ATMega328p, ATTinyX4, ATTinyX5.</text>
 </net>
 <net name="VIN" class="1">
 <segment>
-<pinref part="C8" gate="G$1" pin="2"/>
+<pinref part="C7" gate="G$1" pin="2"/>
 <pinref part="D3" gate="1" pin="C"/>
 <wire x1="241.3" y1="167.64" x2="231.14" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="231.14" y1="167.64" x2="231.14" y2="160.02" width="0.1524" layer="91"/>
@@ -13170,7 +13170,7 @@ for ATMega328p, ATTinyX4, ATTinyX5.</text>
 <pinref part="ZU4" gate="G$1" pin="XTAL1"/>
 <pinref part="R7" gate="G$1" pin="1"/>
 <pinref part="OSC1" gate="G$1" pin="1"/>
-<pinref part="C7" gate="G$1" pin="1"/>
+<pinref part="C6" gate="G$1" pin="1"/>
 <wire x1="40.64" y1="111.76" x2="45.72" y2="111.76" width="0.1524" layer="91"/>
 <junction x="45.72" y="111.76"/>
 </segment>
@@ -13508,14 +13508,14 @@ for ATMega328p, ATTinyX4, ATTinyX5.</text>
 <pinref part="ZU4" gate="G$1" pin="VCC"/>
 <pinref part="P+3" gate="VCC" pin="VCC"/>
 <pinref part="ZU4" gate="G$1" pin="AVCC"/>
-<pinref part="C6" gate="G$1" pin="2"/>
+<pinref part="C5" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="P+2" gate="VCC" pin="VCC"/>
 <pinref part="R2" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="C9" gate="G$1" pin="2"/>
+<pinref part="C8" gate="G$1" pin="2"/>
 <pinref part="SUPPLY55" gate="VCC" pin="VCC"/>
 <wire x1="274.32" y1="162.56" x2="274.32" y2="160.02" width="0.1524" layer="91"/>
 <pinref part="JP1" gate="A" pin="2"/>
