@@ -2,24 +2,24 @@ EAGLE AutoRouter Statistics:
 
 Job           : /home/gionata/workspace_Arduino/Dev_Board/ATDevBoard/Schematics/ATDevBoard/ATDevBoard.brd
 
-Start at      : 20:58:16 (13/05/18)
-End at        : 20:59:14 (13/05/18)
-Elapsed time  : 00:00:57
+Start at      : 22:46:21 (11/09/18)
+End at        : 22:46:43 (11/09/18)
+Elapsed time  : 00:00:13
 
-Signals       :    35   RoutingGrid: 5 mil  Layers: 2
+Signals       :    35   RoutingGrid: 6.25 mil  Layers: 2
 Connections   :   120   predefined:  0 ( 0 Vias )
 
-Router memory :   1378352
+Router memory :   888220
 
-Passname          : TopRouter     Route Optimize1 Optimize2 Optimize3 Optimize4 Optimize5 Optimize6 Optimize7 Optimize8
+Passname          :    Busses     Route Optimize1 Optimize2 Optimize3 Optimize4
 
-Time per pass     :  00:00:21  00:00:10  00:00:04  00:00:03  00:00:04  00:00:03  00:00:03  00:00:03  00:00:03  00:00:03
-Number of Ripups  :         0        13         0         0         0         0         0         0         0         0
-max. Level        :         0         1         0         0         0         0         0         0         0         0
-max. Total        :         0         8         0         0         0         0         0         0         0         0
+Time per pass     :  00:00:00  00:00:04  00:00:02  00:00:02  00:00:03  00:00:02
+Number of Ripups  :         0         0         0         0         0         0
+max. Level        :         0         1         0         0         0         0
+max. Total        :         0         0         0         0         0         0
 
-Routed            :        51       119       117       118       118       118       118       118       118       118
-Vias              :         0        96       104        63        50        47        43        39        34        33
-Resolution        :    42.5 %    99.2 %    97.5 %    98.3 %    98.3 %    98.3 %    98.3 %    98.3 %    98.3 %    98.3 %
+Routed            :         6       119       119       119       119       119
+Vias              :         0       180        73        47        37        32
+Resolution        :     5.0 %    99.2 %    99.2 %    99.2 %    99.2 %    99.2 %
 
-Final             : 98.3% finished
+Final             : 99.2% finished
